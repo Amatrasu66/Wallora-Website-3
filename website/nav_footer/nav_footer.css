@@ -1,0 +1,119 @@
+/* Navbar */
+    /* .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: #333;
+      padding: 0.75rem 1rem;
+    }
+    .navbar-brand {
+      color: #fff;
+      font-size: 1.25rem;
+      text-decoration: none;
+    }
+    .navbar-nav {
+      list-style: none;
+      display: flex;
+      margin: 0;
+      padding: 0;
+    }
+    .navbar-nav li {
+      margin-left: 1rem;
+    }
+    .navbar-nav a {
+      color: #fff;
+      text-decoration: none;
+      padding: 0.5rem;
+    }
+    .navbar-nav a.btn {
+      border: 1px solid #fff;
+      border-radius: 4px;
+      padding: 0.25rem 0.75rem;
+    } */
+
+/* navbar new */
+
+    /* Base styles */
+
+.navbar {
+    background-color: #111;
+    color: #fff;
+    padding: 1rem 0;
+    margin: 0;
+    
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+}
+
+.nav-links li {
+    position: relative;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #00bfff;
+}
+
+/* Dropdown styles */
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #222;
+    padding: 0.5rem 0;
+    list-style: none;
+    min-width: 180px;
+    z-index: 1000;
+}
+
+.dropdown-menu li a {
+    display: block;
+    padding: 0.5rem 1rem;
+    color: #fff;
+}
+
+.dropdown-menu li a:hover {
+    background-color: #333;
+    color: #00bfff;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+
+/* Footer */
+.footer {
+  background: #222;
+  color: #fff;
+  text-align: center;
+  padding: 1rem 0;
+  /* margin-top: 40px; */
+}
