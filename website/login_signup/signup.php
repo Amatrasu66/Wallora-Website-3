@@ -1,6 +1,6 @@
 <?php
 session_start();
-include $_SERVER['DOCUMENT_ROOT'] . '/Website web1/website/database_connection/database.php';
+include $_SERVER['DOCUMENT_ROOT'] . '/wallora website/website/database_connection/database.php';
 
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
